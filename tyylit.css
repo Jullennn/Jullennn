@@ -1,0 +1,155 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'=Fira Sans Condensed);
+
+    body {
+        background-color:#FFFFFF;
+        margin: 0;
+        padding:0;
+        font-family:Fira Sans Condensed;
+      }
+div{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+    
+}
+/*navigaattori*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2B616D;
+  }
+  
+  li {
+    float:center;
+  }
+  
+  li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #B2DBD5;
+  }
+  
+  .active {
+    background-color: #FA8D62;
+  }
+/*navigaattori*/
+
+
+/*header*/
+header{
+    background-color: #2B616D;
+}
+
+header h1{
+    font-family:Fira Sans Condensed;
+    font-size: 55px;
+    text-align: center;
+    color: #FFFFFF;
+    margin:10px 10px 10px 10px;
+    }
+/*header*/
+
+
+/*laatikot*/
+.row {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    font-family:fira sans;
+}
+
+.column {
+    float: left;
+    width: 35%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+section {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    font-family:fira sans;
+}
+
+.kuva {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000%;
+}
+/*laatikot loppuu*/
+@media only screen and (min-width: 700px) {
+    li {
+        float:left;
+    }
+    section {
+        width: 75%; 
+
+}
+     header h1{
+    font-size: 70px;
+          
+     }
+.kuva {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+
+}
+.row {
+    width: 75%;
+    margin: auto;
+
+  }}
+
+@media only screen and (min-width: 1025px) {
+    section {
+        width: 55%; 
+
+}
+     header h1{
+    font-size: 70px;
+}
+
+.kuva {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.row {
+    width: 95%;
+    margin: auto;
+}
+.column {
+    float: left;
+    width: 35%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  }
